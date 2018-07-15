@@ -1,4 +1,87 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    top: 0;
+    border: 1px solid red
+}
+
+header > div{
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#hamburger{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.barra{
+    width: 80%;
+    height: 5px;
+    background-color: black;
+    border-radius: 15%;
+}
+
+header div nav{
+    display: none;
+}
+
+header div input{
+    display: none;
+}
+
+header img{
+    width: 165px;
+    height: 36px;
+}
+
+.linha{
+    background-color: black;
+    height: 3px;
+
+}
+
+@font-face {
+    font-family: "Cassanet Bold";
+    src: url(fonts/Cassannet\ Bold.otf) 
+}
+
+#n1-mae{
+    /* background-image: url(img/fotoPET.png); */
+    background-color: #17252A;
+    color: white;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+
+}
+
+.conteudo{
+
+    height: 100px;
+    margin: 1px solid red;
+    font-family: "Cassanet Bold", sans-serif;
+    
+}
+
+
+.conteudo2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
